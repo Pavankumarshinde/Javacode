@@ -1,33 +1,12 @@
 package Java;
+
 public class datatypes {
     public static void main(String[] args) {
-      
 
-
-        boolean y ;
+        boolean y;
         y = false;
         boolean x = false;
         System.out.println("value of y: " + y);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         // // 2. char
         // // Size: 2 bytes
@@ -37,7 +16,6 @@ public class datatypes {
         // System.out.println("char: " + a);
         // // Integer data type is generally
         // // used for numeric values
-
 
         // 3. byte
         // Size: 1 byte
