@@ -5,18 +5,18 @@ public class scanner {
      public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Take an integer input
+        // Take an integer input 
         System.out.print("Enter an integer: ");
         int integerInput = scanner.nextInt();
       
-        // Take a float input
+      //   // Take a float input
         System.out.print("Enter a float number: ");
         float floatInput = scanner.nextFloat();
 
         // Consume the newline character after nextFloat
-        scanner.nextLine();
+      //   scanner.nextLine();
 
-        // Take a string input
+      //   // Take a string input
         System.out.print("Enter a string: ");
         String stringInput = scanner.nextLine();
 
