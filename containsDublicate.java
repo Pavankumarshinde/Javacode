@@ -9,16 +9,16 @@ public class containsDublicate {
             
         // }
         // return false;
-        int x=nums[0];
-        for(int i=1;i<nums.length;i++)
-        {
-            x= x ^ nums[i];        
-        }
-        if(x==0)
-        {
-            return true;
-        }
-        return false;
+        // int x=nums[0];
+        // for(int i=1;i<nums.length;i++)
+        // {
+        //     x= x ^ nums[i];        
+        // }
+        // if(x==0)
+        // {
+        //     return true;
+        // }
+        // return false;
         
     
 }
