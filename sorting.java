@@ -34,6 +34,7 @@ public class sorting {
     }
 
     // Bubble Sort
+    // 23 46 26 37
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
@@ -63,6 +64,7 @@ public class sorting {
             int temp = arr[minIdx];
             arr[minIdx] = arr[i];
             arr[i] = temp;
+
         }
     }
 
