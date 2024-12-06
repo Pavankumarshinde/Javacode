@@ -23,6 +23,7 @@ public class Time_and_Space_Complexcity {
     
     // O(1) - Constant Time
     public static int getFirstElement(int[] arr) {
+      
         return arr[0]; // Accessing the first element is constant time.
     }
 
@@ -32,6 +33,8 @@ public class Time_and_Space_Complexcity {
         for (int num : arr) { // Traversing the entire array.
             sum += num;
         }
+        
+        
         return sum;
     }
 
