@@ -4,7 +4,7 @@ interface Human {
 }
 
 
-public class Main1 {
+public class Interface {
     public static void playing()
     {
         System.out.println("My work is to perform better");
@@ -18,13 +18,13 @@ public class Main1 {
         System.out.println("publish research paper");
     }
     public static void main(String[] args) {
-        Human player= Main1 :: playing ;
+        Human player= Interface :: playing ;
         player.work();
 
-        Human teacher = Main1 :: teaching;
+        Human teacher = Interface :: teaching;
         teacher.work(); 
 
-        Human researcher = Main1 :: research;
+        Human researcher = Interface :: research;
         researcher.work();
         
     }

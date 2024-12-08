@@ -2,7 +2,7 @@ public class Time_and_Space_Complexcity {
     public static void main(String[] args) {
         
         // O(1) - Constant Time 
-        // O(N) - Linear time
+        // O(N) - Linear time 
         // O(Log N) -logarithmic time
         // O(N^2) - Quadratic time
         // O(2^N) - Exponential Time
@@ -74,10 +74,16 @@ public class Time_and_Space_Complexcity {
 
     // O(N) - Linear Space
     public static int[] reverseArray(int[] arr) {
-        int[] reversed = new int[arr.length]; // Allocates new array of size N.
-        for (int i = 0; i < arr.length; i++) {
-            reversed[i] = arr[arr.length - 1 - i];
+        //1 2 3 4
+        // 4 3 2 1
+
+        // O(N/2) ---> O(N)
+        
+        for (int i = 0; i <= arr.length/2; i++) {
+            int temp= arr[i];
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i]=temp;
         }
-        return reversed;
+        return arr;
     }
 }

@@ -73,7 +73,7 @@ class Bike extends Vehicle{
 
 // Create objects for Car and Bike.
 // Call their displayInfo() and move() methods.
-public class Main{
+public class Child_parent_classes{
     public static void main(String[] args) {
         Car car= new Car("diesel", "BMW", 60);
         Bike bike= new Bike("mountain bike", "xyz",80);
